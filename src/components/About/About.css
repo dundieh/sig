@@ -1,0 +1,8 @@
+article {
+    display: flex;
+    justify-self: center;
+}
+
+.lft {
+    text-align: left;
+}
