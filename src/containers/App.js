@@ -19,6 +19,7 @@ import MotivationLetter from '../components/MotivationLetter/MotivationLetter';
 import Aupair from '../components/Aupair/Aupair';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
+import LebenInDeutschland from '../components/LebenInDeutschland/LebenInDeutschland';
 
 class App extends React.Component {
   render() {
@@ -114,6 +115,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/aupair'>
               <Aupair />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/lebeninDeutschland'>
+              <LebenInDeutschland />
             </Route>
           </Switch>
 

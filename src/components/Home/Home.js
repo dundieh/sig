@@ -66,7 +66,7 @@ class Home extends React.Component {
                                                 
                                                 <hr/>
                                                 <h1>
-                                                    <a href='/lebenindeutschland'>
+                                                    <a href='/lebeninDeutschland'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> الحياة فى ألمانيا
                                                 </h1>
