@@ -15,6 +15,7 @@ import EmbassyInterview from '../components/EmbassyInterview/EmbassyInterview.js
 import DetailsEI from '../components/EmbassyInterview/DetailsEI/DetailsEI';
 import FAQ from '../components/EmbassyInterview/FAQ/FAQ';
 import WiedervereinigungsVisum from '../components/WiedervereinigungsVisum/WiedervereinigungsVisum';
+import MotivationLetter from '../components/MotivationLetter/MotivationLetter';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -100,6 +101,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/wiedervereinigungsvisum'>
               <WiedervereinigungsVisum />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/motivationletter'>
+              <MotivationLetter />
             </Route>
           </Switch>
 
