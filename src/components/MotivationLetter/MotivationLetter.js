@@ -2,7 +2,7 @@ import React from "react";
 import email from './email.png';
 import './MotivationLetter.css';
 
-class TravelPermit extends React.Component {
+class MotivationLetter extends React.Component {
     render() {
         return (
             <article className="article br3 ba b--black-10 w-100 w-50-m w-50-l mw7 shadow-5 center">
@@ -115,4 +115,4 @@ class TravelPermit extends React.Component {
     }
 }
 
-export default TravelPermit;
+export default MotivationLetter;
