@@ -25,9 +25,6 @@ class Navbar extends React.Component {
                             </a>
                         </li>
                     </ul>
-                    {/* <form class="form-inline my-2 my-lg-0 ma3">
-                        Credit: <a class="btn" target='_blank' rel="noreferrer" href='https://www.facebook.com/groups/311111149267612/permalink/318030751908985'>الدارسين في المانيا</a>
-                    </form> */}
                 </div>
             </nav>
         );
