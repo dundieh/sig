@@ -17,9 +17,14 @@ import FAQ from '../components/EmbassyInterview/FAQ/FAQ';
 import WiedervereinigungsVisum from '../components/WiedervereinigungsVisum/WiedervereinigungsVisum';
 import MotivationLetter from '../components/MotivationLetter/MotivationLetter';
 import Aupair from '../components/Aupair/Aupair';
+import LebenInDeutschland from '../components/LebenInDeutschland/LebenInDeutschland';
+import General from '../components/LebenInDeutschland/General/General';
+import ForGirls from '../components/LebenInDeutschland/ForGirls/ForGirls';
+import Kosten from '../components/LebenInDeutschland/Kosten/Kosten';
+import Posts from '../components/LebenInDeutschland/Posts/Posts';
+import StudentWork from '../components/LebenInDeutschland/StudentWork/StudentWork';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
-import LebenInDeutschland from '../components/LebenInDeutschland/LebenInDeutschland';
 
 class App extends React.Component {
   render() {
@@ -121,6 +126,36 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/lebeninDeutschland'>
               <LebenInDeutschland />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/lebeninDeutschland/general'>
+              <General />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/lebeninDeutschland/kosten'>
+              <Kosten />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/lebeninDeutschland/forgirls'>
+              <ForGirls />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/lebeninDeutschland/stundentwork'>
+              <StudentWork />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/lebeninDeutschland/posts'>
+              <Posts />
             </Route>
           </Switch>
 
