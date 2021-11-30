@@ -105,6 +105,23 @@ class Posts extends React.Component {
                                         استئجار ملعب رياضي بحجم ملعب التنس لمدة ساعة 20 يورو
                                         <br/>
                                         ...طبعا يدفع الشخص العامل هنا حوالي ٣٣ الي ٤٥ في المائة من دخله شهريا حسب الشريحه الضريبيه له للتامين الصحي والمعاشات وتأمين ضد البطاله والرعايه الخاصه لكبار السن ودفع نسبه لالمانياالشرقيه كإعانه اذا كنت في الشريحه الاولي الخ
+                                        <br/>
+                                        ______________________________________
+                                        <br/>
+                                        = لينكات لتجارب زياده
+                                        <br/>
+                                        <div className='lft'>
+                                            <a target='_blank' rel='noreferrer' href='https://www.facebook.com/groups/311111149267612/posts/437125866666139/'>facebook.com/../../posts/437125866666139</a>
+                                        <br/>
+                                            <a target='_blank' rel='noreferrer' href='https://www.facebook.com/groups/311111149267612/posts/446653582380034/'>facebook.com/../../posts/446653582380034</a>
+                                        <br/>
+                                            <a target='_blank' rel='noreferrer' href='https://www.facebook.com/groups/311111149267612/posts/653903068321750/'>facebook.com/../../posts/653903068321750</a>
+                                        <br/>
+                                            <a target='_blank' rel='noreferrer' href='https://www.facebook.com/groups/311111149267612/posts/963623104016410/'>facebook.com/../../posts/963623104016410</a>
+                                        <br/>
+                                            <a target='_blank' rel='noreferrer' href='https://www.facebook.com/groups/311111149267612/posts/976821629363224/'>facebook.com/../../posts/976821629363224</a>
+                                        <br/>
+                                        </div>
                                     </h3>
                                 </div>
                             </div>
