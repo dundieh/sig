@@ -23,6 +23,7 @@ import ForGirls from '../components/LebenInDeutschland/ForGirls/ForGirls';
 import Kosten from '../components/LebenInDeutschland/Kosten/Kosten';
 import Posts from '../components/LebenInDeutschland/Posts/Posts';
 import StudentWork from '../components/LebenInDeutschland/StudentWork/StudentWork';
+import Ausbildung from '../components/Ausbildung/Ausbildung';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -156,6 +157,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/lebeninDeutschland/posts'>
               <Posts />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/ausbildung'>
+              <Ausbildung />
             </Route>
           </Switch>
 
