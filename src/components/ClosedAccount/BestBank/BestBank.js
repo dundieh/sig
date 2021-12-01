@@ -9,7 +9,11 @@ class BestBank extends React.Component {
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <div className='legend center'>
-                                <legend className="f1 fw6 ph0 mh0">احسن بنك حاليا تفتح فيه</legend>
+                                <legend className="f1 fw6 ph0 mh0">
+                                    احسن بنك تفتح فيه
+                                <br/>
+                                    بدون اقامه
+                                </legend>
                             </div>
                             <hr/>
 

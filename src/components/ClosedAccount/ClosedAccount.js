@@ -28,7 +28,7 @@ class ClosedAccount extends React.Component {
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor/bestbank'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a>  احسن بنك حاليا تفتح فيه
+                                                    </a> احسن بنك تفتح فيه بدون اقامه
                                                 </h1>
 
                                                 <hr/>

@@ -9,7 +9,13 @@ class CurrentBankAcc extends React.Component {
                     <div className="measure">
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
                             <div className='legend center'>
-                                <legend className="f1 fw6 ph0 mh0">فتح حساب جارى فى المانيا و تفعيل الحساب المغلق</legend>
+                                <legend className="f1 fw6 ph0 mh0">
+                                    فتح حساب جارى
+                                    <br/>
+                                    فى المانيا و
+                                    <br/>
+                                    تفعيل الحساب المغلق
+                                </legend>
                             </div>
                             <hr/>
 
