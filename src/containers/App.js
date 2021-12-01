@@ -25,6 +25,11 @@ import Posts from '../components/LebenInDeutschland/Posts/Posts';
 import StudentWork from '../components/LebenInDeutschland/StudentWork/StudentWork';
 import Ausbildung from '../components/Ausbildung/Ausbildung';
 import ClosedAccount from '../components/ClosedAccount/ClosedAccount';
+import Fintiba from '../components/ClosedAccount/Fintiba/Fintiba';
+import CurrentBankAcc from '../components/ClosedAccount/CurrentBankAcc/CurrentBankAcc';
+import FinancialGuarantor from '../components/ClosedAccount/FinancialGuarantor/FinancialGuarantor';
+import BestBank from '../components/ClosedAccount/BestBank/BestBank';
+import More from '../components/ClosedAccount/More/More';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -35,11 +40,15 @@ class App extends React.Component {
         <div className="App">
           <Navbar />
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/'>
               <Home />
             </Route>
           </Switch>
+
+          {/* ___________________________________________________________ */}
 
           <Switch>
             <Route exact path='/contact'>
@@ -47,11 +56,15 @@ class App extends React.Component {
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/about'>
               <About />
             </Route>
           </Switch>
+
+          {/* ___________________________________________________________ */}
 
           <Switch>
             <Route exact path='/travelpermit_missions_armypostponement'>
@@ -59,17 +72,23 @@ class App extends React.Component {
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/scholarships'>
               <Scholarships />
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/arbeitsvisum'>
               <Arbeitsvisum />
             </Route>
           </Switch>
+
+          {/* ___________________________________________________________ */}
 
           <Switch>
             <Route exact path='/sprache'>
@@ -89,6 +108,8 @@ class App extends React.Component {
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/embassyinterview'>
               <EmbassyInterview />
@@ -107,11 +128,15 @@ class App extends React.Component {
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/wiedervereinigungsvisum'>
               <WiedervereinigungsVisum />
             </Route>
           </Switch>
+
+          {/* ___________________________________________________________ */}
 
           <Switch>
             <Route exact path='/motivationletter'>
@@ -119,11 +144,15 @@ class App extends React.Component {
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/aupair'>
               <Aupair />
             </Route>
           </Switch>
+
+          {/* ___________________________________________________________ */}
 
           <Switch>
             <Route exact path='/lebeninDeutschland'>
@@ -161,17 +190,53 @@ class App extends React.Component {
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/ausbildung'>
               <Ausbildung />
             </Route>
           </Switch>
 
+          {/* ___________________________________________________________ */}
+
           <Switch>
             <Route exact path='/closedbankaccount_financialguarantor'>
               <ClosedAccount />
             </Route>
           </Switch>
+
+          <Switch>
+            <Route exact path='/closedbankaccount_financialguarantor/fintiba_sutorbank'>
+              <Fintiba />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/closedbankaccount_financialguarantor/bestbank'>
+              <BestBank />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/closedbankaccount_financialguarantor/currentbankaccount'>
+              <CurrentBankAcc />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/closedbankaccount_financialguarantor/financialguarantor'>
+              <FinancialGuarantor />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/closedbankaccount_financialguarantor/more'>
+              <More />
+            </Route>
+          </Switch>
+
+          {/* ___________________________________________________________ */}
 
           <Footer />
         </div>
