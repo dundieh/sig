@@ -40,6 +40,13 @@ class ClosedAccount extends React.Component {
 
                                                 <hr/>
                                                 <h1>
+                                                    <a href='/closedbankaccount_financialguarantor/refund'>
+                                                        <img alt='' width='30px' height='30px' src={link}/>
+                                                    </a> غلق الحساب و استرجاع الفلوس
+                                                </h1>
+
+                                                <hr/>
+                                                <h1>
                                                     <a href='/closedbankaccount_financialguarantor/financialguarantor'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> الضامن المالى فى ألمانيا

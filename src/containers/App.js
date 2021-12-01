@@ -27,6 +27,7 @@ import Ausbildung from '../components/Ausbildung/Ausbildung';
 import ClosedAccount from '../components/ClosedAccount/ClosedAccount';
 import Fintiba from '../components/ClosedAccount/Fintiba/Fintiba';
 import CurrentBankAcc from '../components/ClosedAccount/CurrentBankAcc/CurrentBankAcc';
+import Refund from '../components/ClosedAccount/Refund/Refund';
 import FinancialGuarantor from '../components/ClosedAccount/FinancialGuarantor/FinancialGuarantor';
 import BestBank from '../components/ClosedAccount/BestBank/BestBank';
 import More from '../components/ClosedAccount/More/More';
@@ -225,6 +226,12 @@ class App extends React.Component {
           </Switch>
 
           <Switch>
+            <Route exact path='/closedbankaccount_financialguarantor/refund'>
+              <More />
+            </Route>
+          </Switch>
+
+          <Switch>
             <Route exact path='/closedbankaccount_financialguarantor/financialguarantor'>
               <FinancialGuarantor />
             </Route>
@@ -232,7 +239,7 @@ class App extends React.Component {
 
           <Switch>
             <Route exact path='/closedbankaccount_financialguarantor/more'>
-              <More />
+              <Refund />
             </Route>
           </Switch>
 
