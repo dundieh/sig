@@ -1,0 +1,19 @@
+body {
+    background-color: #333333;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.legend {
+    text-align: center;
+}
+
+.rgt {
+    text-align: right;
+}
