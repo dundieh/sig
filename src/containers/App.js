@@ -227,7 +227,7 @@ class App extends React.Component {
 
           <Switch>
             <Route exact path='/closedbankaccount_financialguarantor/refund'>
-              <More />
+              <Refund />
             </Route>
           </Switch>
 
@@ -239,7 +239,7 @@ class App extends React.Component {
 
           <Switch>
             <Route exact path='/closedbankaccount_financialguarantor/more'>
-              <Refund />
+              <More />
             </Route>
           </Switch>
 
