@@ -31,6 +31,7 @@ import Refund from '../components/ClosedAccount/Refund/Refund';
 import FinancialGuarantor from '../components/ClosedAccount/FinancialGuarantor/FinancialGuarantor';
 import BestBank from '../components/ClosedAccount/BestBank/BestBank';
 import More from '../components/ClosedAccount/More/More';
+import StudentVisum from '../components/StudentVisum/StudentVisum';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -62,6 +63,14 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/about'>
               <About />
+            </Route>
+          </Switch>
+
+          {/* ___________________________________________________________ */}
+
+          <Switch>
+            <Route exact path='/studentvisum'>
+              <StudentVisum />
             </Route>
           </Switch>
 
