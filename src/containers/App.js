@@ -34,6 +34,7 @@ import More from '../components/ClosedAccount/More/More';
 import StudentVisum from '../components/StudentVisum/StudentVisum';
 import REQS from '../components/StudentVisum/REQS/REQ';
 import InterviewSV from '../components/StudentVisum/InterviewSV/InterviewSV';
+import BasicDOCS from '../components/StudentVisum/BasicDOCS/BasicDOCS';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -85,6 +86,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/interview'>
               <InterviewSV />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/basic_docs'>
+              <BasicDOCS />
             </Route>
           </Switch>
 
