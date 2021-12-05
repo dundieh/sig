@@ -17,13 +17,6 @@ class StudentVisum extends React.Component {
                                             <p>
                                                 <hr/>
                                                 <h1>
-                                                    <a href='/studentvisum/'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> DW حلقة عن الدراسة فى المانيا للمسئولين عن الجروب فى قناة الألمانية
-                                                </h1>
-                                                
-                                                <hr/>
-                                                <h1>
                                                     <a href='/studentvisum/requirements'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> ايه المطلوب للدراسة
