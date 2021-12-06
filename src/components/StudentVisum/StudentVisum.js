@@ -54,7 +54,7 @@ class StudentVisum extends React.Component {
                                                 <h1>
                                                     <a href='/studentvisum/prepyear'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> السنة التحضيرية" شروط طلاب الثانوية العامة و الدبلومة الامريكية و الثانوية البريطانية"
+                                                    </a> السنة التحضيرية: شروط طلاب الثانوية العامة و الدبلومة الامريكية و الثانوية البريطانية
                                                 </h1>
                                                 
                                                 <hr/>

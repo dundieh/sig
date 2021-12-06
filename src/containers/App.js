@@ -37,6 +37,7 @@ import InterviewSV from '../components/StudentVisum/InterviewSV/InterviewSV';
 import BasicDOCS from '../components/StudentVisum/BasicDOCS/BasicDOCS';
 import DAAD from '../components/StudentVisum/DAAD/DAAD';
 import HighSchool from '../components/StudentVisum/HighSchool/HighSchool';
+import PrepYear from '../components/StudentVisum/PrepYear/PrepYear';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -106,6 +107,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/highschool'>
               <HighSchool />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/prepyear'>
+              <PrepYear />
             </Route>
           </Switch>
 
