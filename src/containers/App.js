@@ -38,6 +38,7 @@ import BasicDOCS from '../components/StudentVisum/BasicDOCS/BasicDOCS';
 import DAAD from '../components/StudentVisum/DAAD/DAAD';
 import HighSchool from '../components/StudentVisum/HighSchool/HighSchool';
 import PrepYear from '../components/StudentVisum/PrepYear/PrepYear';
+import Recog from '../components/StudentVisum/Recog/Recog';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -113,6 +114,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/prepyear'>
               <PrepYear />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/recognization'>
+              <Recog />
             </Route>
           </Switch>
 

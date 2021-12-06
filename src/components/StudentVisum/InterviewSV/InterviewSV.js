@@ -17,7 +17,7 @@ class InterviewSV extends React.Component {
 
                             <div className="ui form ma0">
                                 <div className="fields">
-                                <div class="row">
+                                    <div class="row">
                                         <div class="column">
                                             <img alt='' width='300px' height='400px' src={one} />
                                         </div>
