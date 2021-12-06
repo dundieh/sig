@@ -68,7 +68,7 @@ class StudentVisum extends React.Component {
                                                 <h1>
                                                     <a href='/studentvisum/apply'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> مواعيد و كيفية التقديم على الجامعة وما هو القبول المشروط والنهائى  ؟
+                                                    </a> مواعيد و كيفية التقديم على الجامعة و ما هو القبول المشروط والنهائى ؟
                                                 </h1>
                                                 
                                                 <hr/>
