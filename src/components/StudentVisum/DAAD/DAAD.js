@@ -20,7 +20,7 @@ class DAAD extends React.Component {
 
                             <div className="ui form ma0">
                                 <div className="fields">
-                                <div class="row">
+                                    <div class="row">
                                         <div class="column">
                                             <img alt='' width='500px' height='300px' src={one} />
                                             <img alt='' width='500px' height='300px' src={two} />

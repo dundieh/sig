@@ -94,7 +94,7 @@ class StudentVisum extends React.Component {
 
                                                 <hr/>
                                                 <h1>
-                                                    <a href='/studentvisum/complete_study'>
+                                                    <a href='/studentvisum/complete_uni'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> معادلة المواد و استكمال الدراسة فى المانيا
                                                 </h1>

@@ -42,6 +42,7 @@ import Recog from '../components/StudentVisum/Recog/Recog';
 import Apply from '../components/StudentVisum/Apply/Apply';
 import AcceptTypes from '../components/StudentVisum/AcceptTypes/AcceptTypes';
 import Medicine from '../components/StudentVisum/Medicine/Medicine';
+import CUNI from '../components/StudentVisum/CUNI/CUNI';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -141,6 +142,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/medicine'>
               <Medicine />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/complete_uni'>
+              <CUNI />
             </Route>
           </Switch>
 
