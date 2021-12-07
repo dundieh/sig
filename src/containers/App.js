@@ -40,6 +40,8 @@ import HighSchool from '../components/StudentVisum/HighSchool/HighSchool';
 import PrepYear from '../components/StudentVisum/PrepYear/PrepYear';
 import Recog from '../components/StudentVisum/Recog/Recog';
 import Apply from '../components/StudentVisum/Apply/Apply';
+import AcceptTypes from '../components/StudentVisum/AcceptTypes/AcceptTypes';
+import Medicine from '../components/StudentVisum/Medicine/Medicine';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -127,6 +129,18 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/apply'>
               <Apply />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/acceptance_types'>
+              <AcceptTypes />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/medicine'>
+              <Medicine />
             </Route>
           </Switch>
 
