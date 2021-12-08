@@ -40,6 +40,7 @@ import HighSchool from '../components/StudentVisum/HighSchool/HighSchool';
 import PrepYear from '../components/StudentVisum/PrepYear/PrepYear';
 import Recog from '../components/StudentVisum/Recog/Recog';
 import Apply from '../components/StudentVisum/Apply/Apply';
+import TGS from '../components/StudentVisum/TGS/TGS';
 import AcceptTypes from '../components/StudentVisum/AcceptTypes/AcceptTypes';
 import Medicine from '../components/StudentVisum/Medicine/Medicine';
 import CUNI from '../components/StudentVisum/CUNI/CUNI';
@@ -134,6 +135,12 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/apply'>
               <Apply />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/togermanscore'>
+              <TGS />
             </Route>
           </Switch>
 
