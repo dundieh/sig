@@ -108,7 +108,7 @@ class StudentVisum extends React.Component {
 
                                                 <hr/>
                                                 <h1>
-                                                    <a href='/studentvisum/bestunis_foryou'>
+                                                    <a href='/studentvisum/bestunis'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> كيفية معرفة افضل الجامعات فى المانيا
                                                 </h1>

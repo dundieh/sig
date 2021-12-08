@@ -43,6 +43,8 @@ import Apply from '../components/StudentVisum/Apply/Apply';
 import AcceptTypes from '../components/StudentVisum/AcceptTypes/AcceptTypes';
 import Medicine from '../components/StudentVisum/Medicine/Medicine';
 import CUNI from '../components/StudentVisum/CUNI/CUNI';
+import UniTyp from '../components/StudentVisum/UniTyp/UniTyp';
+import BestUnis from '../components/StudentVisum/BestUnis/BestUnis';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './App.css';
 
@@ -148,6 +150,18 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/studentvisum/complete_uni'>
               <CUNI />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/uni_types'>
+              <UniTyp />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route exact path='/studentvisum/bestunis'>
+              <BestUnis />
             </Route>
           </Switch>
 
