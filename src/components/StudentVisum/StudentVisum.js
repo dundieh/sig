@@ -115,14 +115,14 @@ class StudentVisum extends React.Component {
 
                                                 <hr/>
                                                 <h1>
-                                                    <a href='/studentvisum/time_plan'>
+                                                    <a href='/studentvisum/timeplan'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> معلومات عن الخطة الزمنية للدراسة فى المانيا - الحساب البنكى و تجديده
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
-                                                    <a href='/studentvisum/reasons_for_reject'>
+                                                    <a href='/studentvisum/rejectreasons'>
                                                         <img alt='' width='30px' height='30px' src={link}/>
                                                     </a> أسباب رفض فيزا الدراسة و طريقة التظلم
                                                 </h1>
