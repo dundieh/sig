@@ -1,5 +1,4 @@
 import React from 'react';
-import link from './link.png';
 import './Home.css';
 
 class Home extends React.Component {
@@ -18,85 +17,85 @@ class Home extends React.Component {
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> فيزا الدراسة
+                                                        فيزا الدراسة
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الحساب المغلق و الضامن
+                                                        الحساب المغلق و الضامن
+                                                    </a>
                                                 </h1>
                                                
                                                 <hr/>
                                                 <h1>
                                                     <a href='/motivationletter'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الموتفيشن ليتر
+                                                        الموتفيشن ليتر
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/travelpermit_missions_armypostponement'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> تصريح السفر و البعثات و تأجيل الجيش
+                                                        تصريح السفر و البعثات و تأجيل الجيش
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/sprache'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> اللغة
+                                                        اللغة
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/embassyinterview'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> انترفيو السفارة
+                                                        انترفيو السفارة
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/scholarships'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> المنح
+                                                        المنح
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/lebeninDeutschland'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الحياة فى ألمانيا
+                                                        الحياة فى ألمانيا
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/arbeitsvisum'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> فيزا العمل
+                                                        فيزا العمل
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/wiedervereinigungsvisum'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> فيزا لم الشمل
+                                                        فيزا لم الشمل
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/aupair'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> Aupair
+                                                        Aupair
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/ausbildung'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> التدريب المهنى" الأوسبيلدونج"
+                                                        التدريب المهنى" الأوسبيلدونج"
+                                                    </a>
                                                 </h1>
                                             </p>
                                         </div>
