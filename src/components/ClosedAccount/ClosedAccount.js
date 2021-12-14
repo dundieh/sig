@@ -1,5 +1,4 @@
 import React from 'react';
-import link from './link.png';
 import './ClosedAccount.css';
 
 class ClosedAccount extends React.Component {
@@ -17,46 +16,46 @@ class ClosedAccount extends React.Component {
                                             <hr/>
                                             <p>
                                                 <h1>
+                                                    <a href='/closedbankaccount_financialguarantor/fintiba_sutorbank'>
                                                         فتح حساب مغلق فى 
                                                         <br/>
-                                                    <a href='/closedbankaccount_financialguarantor/fintiba_sutorbank'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> “fintiba“ Sutor bank
+                                                        “fintiba“ Sutor bank
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor/bestbank'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> احسن بنك تفتح فيه بدون اقامه
+                                                        احسن بنك تفتح فيه بدون اقامه
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor/currentbankaccount'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a>  فتح حساب جارى فى المانيا و تفعيل الحساب المغلق 
+                                                        فتح حساب جارى فى المانيا و تفعيل الحساب المغلق
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor/refund'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> غلق الحساب و استرجاع الفلوس
+                                                        غلق الحساب و استرجاع الفلوس
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor/financialguarantor'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الضامن المالى فى ألمانيا
+                                                        الضامن المالى فى ألمانيا
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/closedbankaccount_financialguarantor/more'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> هل الحساب البنكى مطلوب كل سنة ؟
+                                                        هل الحساب البنكى مطلوب كل سنة ؟
+                                                    </a>
                                                 </h1>
                                             </p>
                                         </div>

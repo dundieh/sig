@@ -1,5 +1,4 @@
 import React from 'react';
-import link from './link.png';
 import './LebenInDeutschland.css';
 
 class LebenInDeutschland extends React.Component {
@@ -18,36 +17,36 @@ class LebenInDeutschland extends React.Component {
                                             <p>
                                                 <h1>
                                                     <a href='/lebeninDeutschland/general'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> بوست شامل عن الحياة في ألمانيا للطلاب
+                                                        بوست شامل عن الحياة في ألمانيا للطلاب
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/lebeninDeutschland/kosten'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> تكاليف المعيشة للطالب في ألمانيا 
+                                                        تكاليف المعيشة للطالب في ألمانيا 
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/lebeninDeutschland/stundentwork'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الشغل للطلاب اثناء الدراسة فى المانيا 
+                                                        الشغل للطلاب اثناء الدراسة فى المانيا
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/lebeninDeutschland/forgirls'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> فيديوهات للبنات في المانيا عن المعيشة
+                                                        فيديوهات للبنات في المانيا عن المعيشة
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/lebeninDeutschland/posts'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> سلسلة بوستات عن الحياة الواقعية في المانيا عامة
+                                                        سلسلة بوستات عن الحياة الواقعية في المانيا عامة
+                                                    </a>
                                                 </h1>
                                             </p>
                                         </div>

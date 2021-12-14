@@ -1,5 +1,4 @@
 import React from 'react';
-import link from './link.png';
 import './EmbassyInterview.css';
 
 class EmbassyInterview extends React.Component {
@@ -18,15 +17,15 @@ class EmbassyInterview extends React.Component {
                                             <p>
                                                 <h1>
                                                     <a href='/embassyinterview/details'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> شرح كامل لكيفية حجز ميعاد الانترفيو و كيفية إلغاء الميعاد
+                                                        شرح كامل لكيفية حجز ميعاد الانترفيو و كيفية إلغاء الميعاد
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/embassyinterview/FAQ'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الاسئلة العامة لمقابلة السفارة و التجارب 
+                                                        الاسئلة العامة لمقابلة السفارة و التجارب 
+                                                    </a>
                                                 </h1>
                                             </p>
                                         </div>

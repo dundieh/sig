@@ -1,5 +1,4 @@
 import React from 'react';
-import link from './link.png';
 import './StudentVisum.css';
 
 class StudentVisum extends React.Component {
@@ -18,113 +17,113 @@ class StudentVisum extends React.Component {
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/requirements'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> ايه المطلوب للدراسة
+                                                        ايه المطلوب للدراسة
+                                                    </a>
                                                 </h1>
                                                
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/interview'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الاوراق المطلوبة فى مقابلة السفارة بغرض الدراسة
+                                                        الاوراق المطلوبة فى مقابلة السفارة بغرض الدراسة
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/basic_docs'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> الأوراق الأساسية للدراسة و توثيق الأوراق من السفارة الألمانية
+                                                        الأوراق الأساسية للدراسة و توثيق الأوراق من السفارة الألمانية
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/daad'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> شرح إستخدام موقع الدااد و البحث عن الجامعات ولغة الدراسة وطريقة مراسلة الجامعة
+                                                        شرح إستخدام موقع الدااد و البحث عن الجامعات ولغة الدراسة وطريقة مراسلة الجامعة
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/highschool'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> شهادتك في الثانوية هتدرس بيها أيه
+                                                        شهادتك في الثانوية هتدرس بيها أيه
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/prepyear'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> السنة التحضيرية: شروط طلاب الثانوية العامة و الدبلومة الامريكية و الثانوية البريطانية
+                                                        السنة التحضيرية: شروط طلاب الثانوية العامة و الدبلومة الامريكية و الثانوية البريطانية
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/recognization'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> ازاى تعرف جامعتك معترفة في ألمانيا
+                                                        ازاى تعرف جامعتك معترفة في ألمانيا
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/apply'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> مواعيد و كيفية التقديم على الجامعة و ما هو القبول المشروط والنهائى ؟
+                                                        مواعيد و كيفية التقديم على الجامعة و ما هو القبول المشروط والنهائى ؟
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/togermanscore'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> ازاى تحول تقديرك للتقدير الألماني
+                                                        ازاى تحول تقديرك للتقدير الألماني
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/acceptance_types'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> ما هو القبول المقيد و المفتوح في ألمانيا و ما نسبة قبولى في الجامعة
+                                                        ما هو القبول المقيد و المفتوح في ألمانيا و ما نسبة قبولى في الجامعة
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/medicine'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> دراسة المجال الطبي و استكماله في المانيا
+                                                        دراسة المجال الطبي و استكماله في المانيا
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/complete_uni'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> معادلة المواد و استكمال الدراسة فى المانيا
+                                                        معادلة المواد و استكمال الدراسة فى المانيا
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/uni_types'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> ما هو الفرق بين انواع الجامعات الألمانية .. النظرية و العملية ؟
+                                                        ما هو الفرق بين انواع الجامعات الألمانية .. النظرية و العملية ؟
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/bestunis'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> كيفية معرفة افضل الجامعات فى المانيا
+                                                        كيفية معرفة افضل الجامعات فى المانيا
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/timeplan'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> معلومات عن الخطة الزمنية للدراسة فى المانيا - الحساب البنكى و تجديده
+                                                        معلومات عن الخطة الزمنية للدراسة فى المانيا - الحساب البنكى و تجديده
+                                                    </a>
                                                 </h1>
 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/studentvisum/rejectreasons'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> أسباب رفض فيزا الدراسة و طريقة التظلم
+                                                        أسباب رفض فيزا الدراسة و طريقة التظلم
+                                                    </a>
                                                 </h1>
                                             </p>
                                         </div>

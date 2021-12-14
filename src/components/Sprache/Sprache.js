@@ -1,5 +1,4 @@
 import React from 'react';
-import link from './link.png';
 import './Sprache.css';
 
 class Sprache extends React.Component {
@@ -18,15 +17,15 @@ class Sprache extends React.Component {
                                             <p>
                                                 <h1>
                                                     <a href='/sprache/zertifikat'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> حجز امتحانات شهادات اللغة الألمانية و الإنجليزية المعتمدة في مصر
+                                                        حجز امتحانات شهادات اللغة الألمانية و الإنجليزية المعتمدة في مصر
+                                                    </a>
                                                 </h1>
                                                 
                                                 <hr/>
                                                 <h1>
                                                     <a href='/sprache/wegzulernen'>
-                                                        <img alt='' width='30px' height='30px' src={link}/>
-                                                    </a> طرق تعلم اللغة الألمانية 
+                                                        طرق تعلم اللغة الألمانية
+                                                    </a>
                                                 </h1>
                                             </p>
                                         </div>
