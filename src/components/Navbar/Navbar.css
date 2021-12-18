@@ -1,3 +1,9 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
 #menuToggle
 {
   display: block;
@@ -12,14 +18,14 @@
 #menuToggle a
 {
   text-decoration: none;
-  color: #cdcdcd;
+  color: #ededed;
   
   transition: color 0.3s ease;
 }
 
 #menuToggle a:hover
 {
-  color: #1266f1;
+  color: #0D52C1;
 }
 
 
@@ -46,6 +52,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
+  
   background: #cdcdcd;
   border-radius: 3px;
   
@@ -72,7 +79,7 @@
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #cdcdcd;
+  background: #ededed;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
