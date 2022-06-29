@@ -1,5 +1,5 @@
 import React from "react";
-import './REQS.css';
+import './REQ.css';
 
 class REQS extends React.Component {
     render() {

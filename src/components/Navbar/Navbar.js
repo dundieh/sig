@@ -5,20 +5,10 @@ class Navig extends React.Component {
     
     render() {
         return (
-            <nav role="navigation">
-                <div id="menuToggle">
-                    <input type="checkbox" />
-
-                    <span></span>
-                    <span></span>
-                    <span></span>
-
-                    <ul id="menu">
-                    <a href="/"><li>Home</li></a>
-                    <a href="/about"><li>About</li></a>
-                    <a href="/contact"><li>Contact</li></a>
-                    </ul>
-                </div>
+            <nav className='links ma3'>
+                <a className='f3 pa3 pointer' href='/' rel='noreferrer'>Home</a>
+                <a className='f3 pa3 pointer' href='/contact' rel='noreferrer'>Contact</a>
+                <a className='f3 pa3 pointer' href='/about' rel='noreferrer'>About</a>
             </nav>
         );
     }
