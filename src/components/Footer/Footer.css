@@ -1,14 +1,14 @@
 .footer{
     background: #333333;
     text-align: center;
-    padding: 2.5em 0;
+    padding: 1rem 0;
     font-weight: 900;
 }
 
 .footer a{
     text-decoration: none;
     color: #ededed;
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
 }
 
 .footer a:hover {
