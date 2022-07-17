@@ -20,7 +20,7 @@ class About extends React.Component {
                                     <p>
                                         Co-Founder & Developer
                                         <br/>
-                                        yousef@gerat.co
+                                        yousefzentral@gmail.com
                                     </p>
                                 </div>
                             </div>
