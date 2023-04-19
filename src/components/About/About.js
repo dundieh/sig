@@ -14,31 +14,6 @@ class About extends React.Component {
                             <hr/>
                             <div className="ui form mt4">
                                 <div className="fields">
-                                    <h3>
-                                        <a target='_blank' rel="noreferrer" href='https://instagram.com/yousefmhrs'>Yousef Mahrous</a> 
-                                    </h3>
-                                    <p>
-                                        Co-Founder & Developer
-                                        <br/>
-                                        yousefzentral@gmail.com
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="ui form mt4">
-                                <div className="fields">
-                                    <h3>
-                                        <a target='_blank' rel="noreferrer" href='https://instagram.com/m.eltantawy176'>Mohamed Eltantawy</a>
-                                    </h3>
-                                    <p>
-                                        Co-Founder & Head of contact center
-                                        <br/>
-                                        mohamed.eltantawy4u@gmail.com
-                                    </p>
-                                </div>
-                            </div>
-                            <hr/>
-                            <div className="ui form mt4">
-                                <div className="fields">
                                     <p>
                                         Important Note! The information provided in this website
                                         <br/>
