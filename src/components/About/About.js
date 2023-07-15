@@ -17,7 +17,7 @@ class About extends React.Component {
                                     <p>
                                         Important Note! The information provided in this website
                                         <br/>
-                                        is adapted from the famous facebook group for
+                                        is adapted from the facebook group for
                                         <br/>
                                         students in Germany called (<a target='_blank' rel="noreferrer" href='https://www.facebook.com/groups/311111149267612/permalink/318030751908985'>الدارسين في المانيا</a>)
                                     </p>
