@@ -7,7 +7,6 @@ class Navig extends React.Component {
         return (
             <nav className='links ma3'>
                 <a className='f3 pa3 pointer' href='/' rel='noreferrer'>Home</a>
-                <a className='f3 pa3 pointer' href='/contact' rel='noreferrer'>Contact</a>
                 <a className='f3 pa3 pointer' href='/about' rel='noreferrer'>About</a>
             </nav>
         );
