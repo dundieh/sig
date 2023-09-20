@@ -15,11 +15,11 @@ class About extends React.Component {
                             <div className="ui form mt4">
                                 <div className="fields">
                                     <p>
-                                        Important Note! The information provided in this website
+                                        Important Note! The information provided in this
                                         <br/>
-                                        is adapted from the facebook group for
+                                        website is adopted from the facebook group
                                         <br/>
-                                        students in Germany called (<a target='_blank' rel="noreferrer" href='https://www.facebook.com/groups/311111149267612/permalink/318030751908985'>الدارسين في المانيا</a>)
+                                        Students in Germany (<a target='_blank' rel="noreferrer" href='https://www.facebook.com/groups/311111149267612/permalink/318030751908985'>الدارسين في المانيا</a>)
                                     </p>
                                 </div>
                             </div>
